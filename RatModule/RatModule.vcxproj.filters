@@ -42,6 +42,9 @@
     <ClCompile Include="Librarys\Heinous\Key-Log\Key-Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Librarys\Heinous\BootKit\BootKit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Librarys\Fetch\Fetch.h">
@@ -69,6 +72,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Librarys\Heinous\Key-Log\Key-Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Librarys\Heinous\BootKit\BootKit.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
